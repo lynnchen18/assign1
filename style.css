@@ -1,0 +1,175 @@
+@import url('http://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('http://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('http://fonts.googleapis.com/css?family=Pontano+Sans');
+
+h1, h2, h4, p, a {
+	font-family: Dancing Script;
+	text-shadow: 0 1px 5px grey, 0 -1px 5px grey, 1px 0 5px grey, -1px 0 5px grey;
+}
+
+nav.navbar {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background: none;
+	border: none;
+}
+
+.navbar-inverse .navbar-brand {
+	font-size: 25px;
+	color: white;
+	text-shadow: 0 1px 5px grey, 0 -1px 5px grey, 1px 0 5px grey, -1px 0 5px grey;
+}
+
+.navbar-inverse .navbar-nav .navbar-contacts {
+	font-size: 20px;
+	color: white;
+	text-shadow: 0 1px 5px grey, 0 -1px 5px grey, 1px 0 5px grey, -1px 0 5px grey;
+}
+
+.jumbotron {
+	padding: 0 0 0 0;
+	margin-top: 0px;
+	background-image: url("img/quebec.JPG");
+	background-size: cover; 
+	background-position: center;
+	color: white;
+	height: 500px;
+}
+
+.jumbotron h4 {
+	text-align: center;
+}
+
+.row {
+	margin: auto;
+	width: 100%;
+}
+
+.social-web {
+	height: 200px;
+	background-color: black;
+	border-radius: 10px;
+	margin: 15px 5px 15px 5px;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+	text-decoration: none;
+	/*-webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;*/
+    transition: background 0.3s ease-in-out;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.social-web-name {
+	line-height: 200px;
+	color: white;
+	text-decoration: ;
+	font-size: 50px;
+}
+
+/********** FACEBOOK **********/
+#facebook {
+	background-image: url("img/facebook.gif"); 	
+}
+#facebook:hover {
+	background: #3A589E;
+}
+
+/********** GOOGLE+ **********/
+#google {
+	background-image: url("img/google+.gif"); 
+}
+#google:hover {
+	background: #DD5044; 
+}
+
+/********** TWITTER **********/
+#twitter {
+	background-image: url("img/twitter.gif"); 
+}
+#twitter:hover {
+	background: #659FCB; 
+}
+
+/********** YOUTUBE **********/
+#youtube {
+	background-image: url("img/youtube.gif"); 
+}
+#youtube:hover {
+	background: #C1181E; 
+}
+
+/********** INSTAGRAM **********/
+#instagram {
+	background-image: url("img/instagram.gif"); 
+}
+#instagram:hover {
+	background: #3A688D; 
+}
+
+/********** VINE **********/
+#vine {
+	background-image: url("img/vine.gif"); 
+}
+#vine:hover {
+	background: #55BE95; 
+}
+
+/********** TUMBLR **********/
+#tumblr {
+	background-image: url("img/tumblr.gif"); 
+}
+#tumblr:hover {
+	background: #35465D; 
+}
+
+/********** GITHUB **********/
+#github {
+	background-image: url("img/github.gif"); 
+}
+#github:hover {
+	background: #323131; 
+}
+
+/********** CODEPEN **********/
+#codepen {
+	background-image: url("img/codepen.gif"); 
+}
+#codepen:hover {
+	background: #000000; 
+}
+
+.divder {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+footer {
+	margin-bottom: 50px;
+	color: grey;
+}
+
+@media (min-width: 768px) {
+  	.jumbotron h1 {
+		font-size: 70px;
+		margin-top: 200px;
+	}
+	.jumbotron h4 {
+		margin-top: 20px;
+	}
+}
+@media (min-width: 992px) {
+  	.jumbotron h1 {
+		font-size: 90px;
+		margin-top: 200px;
+	}
+	.jumbotron h4 {
+		margin-top: 30px;
+	}
+}
